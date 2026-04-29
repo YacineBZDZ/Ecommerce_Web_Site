@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/ecommerce', // Replace with your repo name
+  basePath: '/ecommerce',
   assetPrefix: '/ecommerce/',
   images: {
-    unoptimized: true, // Important for static export
+    unoptimized: true,
   },
   trailingSlash: true,
 }
 
-module.exports = nextConfig
+export default nextConfig
