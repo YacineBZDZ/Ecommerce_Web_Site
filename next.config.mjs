@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/ecommerce',
-  assetPrefix: '/ecommerce/',
+  basePath: '/Ecommerce_Web_Site',
+  assetPrefix: '/Ecommerce_Web_Site/',
   images: {
     unoptimized: true,
   },
