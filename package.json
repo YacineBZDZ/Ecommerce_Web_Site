@@ -2,11 +2,12 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+   "scripts": {
     "dev": "next dev",
     "build": "next build && next export -o docs",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "npm run build && gh-pages -d docs -b main -f"
   },
   "dependencies": {
     "@babel/core": "^7.17.9",
@@ -24,8 +25,8 @@
   },
   "devDependencies": {
     "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.8",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^12.1.0",
     "gh-pages": "^6.3.0"
   }
 }
