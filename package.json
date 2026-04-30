@@ -2,12 +2,12 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
-   "scripts": {
+  "scripts": {
     "dev": "next dev",
     "build": "next build && next export -o docs",
     "start": "next start",
     "lint": "eslint",
-    "deploy": "npm run build && gh-pages -d docs -b main -f"
+    "deploy": "npm run build && git add docs && git commit -m 'Deploy' && git push origin main"
   },
   "dependencies": {
     "@babel/core": "^7.17.9",
