@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   basePath: '/Ecommerce_Web_Site',
-  assetPrefix: '/Ecommerce_Web_Site/',
+  assetPrefix: '/Ecommerce_Web_Site',
   images: {
     unoptimized: true,
   },
