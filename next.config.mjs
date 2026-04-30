@@ -7,6 +7,12 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  exportPathMap: async () => {
+    return {
+      '/': { page: '/' },
+      '/success': { page: '/success' },
+    }
+  }
 }
 
 export default nextConfig
